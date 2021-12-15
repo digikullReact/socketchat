@@ -2,7 +2,7 @@ import React from 'react'
 
 function Messagefooter() {
     return (
-        <div>
+        <div className='bg-dark py-5 text-light'>
             <h1>Footer</h1>
         </div>
     )

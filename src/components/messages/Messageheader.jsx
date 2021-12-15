@@ -2,7 +2,7 @@ import React from 'react'
 
 function Messageheader() {
     return (
-        <div>
+        <div className='bg-dark py-5 text-light'>
              <h1>Header</h1>
         </div>
     )
