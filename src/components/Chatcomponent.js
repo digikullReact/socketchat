@@ -1,11 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { io } from "socket.io-client";
+import Info from "./info/Info";
 
-import Mainmessages from './messages/Mainmessages'
-
+import Mainmessages from "./messages/Mainmessages";
 
 const Chatcomponent = () => {
   const socket = io("http://localhost:3001");
+
+  const [show, setShow] = useState(true);
 
   useEffect(() => {
     return () => {};
@@ -13,15 +15,23 @@ const Chatcomponent = () => {
 
   return (
     <div className="container-fluid row">
-
-      <div style={{height:'100vh'}} className="col-md-8 bg-light bg-dark">
-       <Mainmessages/>
-       
+      <>
+      {
+        show ?
+        <>
+        <div style={{ height: "100vh" }} className="col-md-9 bg-light bg-dark">
+        <Mainmessages />
       </div>
-
-      <div className="col-md-4">
-          <p>Hellow</p>
+      <div className="col-md-3">
+        <Info />
       </div>
+        </>
+        :
+        <div style={{ height: "100vh" }} className="col-md-9 bg-light bg-dark">
+        <Mainmessages />
+      </div>
+      }
+      </>
 
     </div>
   );
