@@ -23,19 +23,15 @@ input:focus{
 
 
 
-.send-div{
+
+/* =================send button styling================= */
+.send-btn{
     background-color: rgba(255, 217, 0, 0.815);
     color: black;
-    width: 20vh;
-    border-radius: 8px;
+    width: 6vh;
     font-size: 25px;
     height: 6vh;
-    margin-right: 8px;
-    
-    /* margin: 15px 15px; */
-    
-   
-    
+    padding-top: 9px;
 }
 
 
@@ -43,5 +39,7 @@ input:focus{
   /* ========Media query======== */
 
   @media (max-width: 510px) {
-    
+    /* .send-btn{
+        padding-top: 0px!important;
+    } */
     }
