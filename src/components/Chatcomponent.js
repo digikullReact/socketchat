@@ -14,11 +14,12 @@ const Chatcomponent = () => {
   return (
     <div className="container-fluid row">
 
-      <div className="col-md-8 bg-info">
+      <div style={{height:'100vh'}} className="col-md-8 bg-light bg-dark">
        <Mainmessages/>
+       
       </div>
 
-      <div className="col-md-4 bg-dark h-100">
+      <div className="col-md-4">
           <p>Hellow</p>
       </div>
 
