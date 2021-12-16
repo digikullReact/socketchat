@@ -1,0 +1,65 @@
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(238, 204, 9);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.searchbar{
+    width: 150%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    font-size: 21px !important;
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 70%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.left{
+    flex: 3;
+}
+
+.centre{
+    flex: 5;
+}
+
+.right{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 344px;
+
+}
+
+.img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

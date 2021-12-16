@@ -1,0 +1,87 @@
+.users{
+    height: 100vh;
+    display: flex;
+
+}
+
+.menu{
+    flex: 4;
+}
+
+
+.online{
+    flex: 8;
+}
+
+.warapper, .boxWarapper{
+    padding: 10px;
+    background-image: linear-gradient(rgb(80, 74, 74),rgb(201, 121, 201),rgb(163, 163, 206));
+    height: 100vh;  
+}
+
+.onlineWarapper{
+    padding: 10px;
+    /* background-image: linear-gradient(rgb(80, 74, 74),rgb(201, 121, 201),rgb(163, 163, 206)); */
+    height: 100vh; 
+}
+
+
+
+.warapper{
+    overflow: scroll;
+}
+
+.chat_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.manuInput{
+    width: 90%;
+    padding: 10px 0 ;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.manuInput:focus{
+    outline: none;
+}
+
+.fa-cog:before, .fa-gear:before {
+    content: "\f013";
+    margin-left: 195px;
+    cursor: pointer;
+}
+
+#arrow{
+    margin-left: 13px;
+    cursor: pointer;
+    color: black
+}
+
+#arrow:hover{
+    color: rgb(199, 120, 196);
+
+}
+
+/* .users{
+    height: 100vh;
+} */
+
+.onlineWarapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.onlineWrapper_heading {
+    color: rgb(205, 157, 228);
+}
