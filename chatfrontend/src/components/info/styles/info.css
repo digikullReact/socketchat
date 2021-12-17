@@ -1,0 +1,33 @@
+
+.info-img{
+    background-color: aliceblue;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.info-user{
+    margin-top: 12px;
+    border-radius: 5px;
+    background-color: rgba(255, 217, 0, 0.61);
+}
+
+.info-img img{
+    border: 5px solid gold;
+}
+
+.attachments img{
+    border-radius: 5px;
+    border: 2px solid purple;
+}
+
+.del-btn{
+    height: 60px;
+    width: 23%;
+    background-color: rgb(78, 2, 94);
+    color: white;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    border: none;
+    font-size: large;
+}

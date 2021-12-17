@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+.msg-header{
+    height: 12vh;
+    border-radius: 6px;
+}
+.img-div{
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+}
+#header{
+    background: rgb(78, 2, 94);
+    color:gold
+  }
+  .username{
+      font-weight: bold;
+      font-size: larger;
+      letter-spacing: 3px;
+      
+  }
+
+  /* ========Media query======== */
+
+  @media (max-width: 510px) {
+    .img-div{
+        height: 70px;
+        width: 70px;
+        margin-left: -25px!important;
+    }
+
+    .username{
+        font-size: 15px!important;
+        letter-spacing: 2px;
+        margin-left: 15px!important;
+        display: block!important;
+    }
+    .last-seen{
+      
+        font-size: small!important;
+        margin-left: -15px!important;
+       
+        margin-right: -28px;
+    }
+    .msg-header{
+        height: 15vh;
+        border-radius: 6px;
+    }
+  }

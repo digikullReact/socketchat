@@ -1,0 +1,94 @@
+.msg-body {
+  height: 77vh;
+  background-color: aliceblue;
+  overflow-y: scroll;
+  border-radius: 6px;
+  
+}
+/* =========================== left msg box =========================== */
+.left-msg {
+  margin-left: 5px;
+  height: auto;
+  background-color: lightblue;
+  width: 32%;
+  word-wrap: break-word;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: left;
+  padding: 12px;
+  font-weight: 100;
+  color: black;
+  background-color: rgba(255, 217, 0, 0.87);
+}
+
+
+/* =========================== right msg box =========================== */
+.right-msg {
+position: sticky;
+left: 930px;
+  height: auto;
+  width: 32%;
+  padding: 12px;
+  word-wrap: break-word;
+  background-color: purple;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 20px;
+  margin-right: 5px;
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+/* ================================ scroll bar css ================================ */
+
+::-webkit-scrollbar {
+  width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: gold;
+}
+::-webkit-scrollbar-thumb:hover {
+ 
+    background-color: rgba(128, 0, 128, 0.733);
+  }
+  ::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+
+  }
+    
+/* =================Media query================= */
+
+    @media (max-width: 1200px) {
+      .left-msg{
+        width: 300px;
+      }
+      .right-msg{
+        width: 300px;
+      }
+    }
+    @media (max-width: 550px) {
+      .left-msg{
+        width: 200px;
+      }
+      .right-msg{
+        width: 200px;
+      }
+      .msg-body {
+        height: 74vh;
+       
+      }
+    }
+
+    @media (max-width: 550px) {
+      .msg-body {
+        height: 74vh;
+      }
+    }
+
+   
